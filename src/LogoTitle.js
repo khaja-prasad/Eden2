@@ -6,7 +6,7 @@ class LogoTitle extends React.Component{
 
 render(){
 return (<div className="logo-title" align="center">
-          <img className="logo1" src={logo}></img>
+          <img alt="Logo not Loaded" className="App-logo" src={logo}></img>
           <h1 className="Title">Eden</h1>
         </div>);
 }

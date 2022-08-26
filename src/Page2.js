@@ -1,6 +1,6 @@
 import "./App.css";
 import React from "react";
-import App from "./App";
+
 
 class Page2 extends React.Component{
     render(){
@@ -9,7 +9,7 @@ class Page2 extends React.Component{
         <div className="page-bar">
           <div className="circles">1</div>
           <div className="lines"></div>
-          <div className="circles">2</div>
+          <div className="circles page2-color">2</div>
           <div className="lines"></div>
           <div className="circles">3</div>
           <div className="lines"></div>

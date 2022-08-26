@@ -1,13 +1,12 @@
 import "./App.css";
 import React from "react";
-import App from "./App";
 
 class Page1 extends React.Component{
     render(){
     return(
     <div>
         <div className="page-bar">
-          <div className="circles">1</div>
+          <div className="circles page1-color">1</div>
           <div className="lines"></div>
           <div className="circles">2</div>
           <div className="lines"></div>
@@ -26,13 +25,13 @@ class Page1 extends React.Component{
                 type="text"
                 placeholder="Steve Jobs"
                 className="name"
-              ></input>
-              <br />
-              <label className="DName-label">Display Name</label>
-              <br />
-              <input type="text" placeholder="Steve" className="name"></input>
-              <br />
-              <input
+               ></input>
+               <br />
+               <label className="DName-label">Display Name</label>
+               <br />
+               <input type="text" placeholder="Steve" className="name"></input>
+               <br />
+               <input
                 
                 className="submit"
                 type="submit"

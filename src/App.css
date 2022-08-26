@@ -5,15 +5,16 @@
   margin-top: 150px;
 }
 .Title {
+  
   margin-left: 70px;
   margin-top: -68px;
 }
-.logo1 {
+.App-logo {
   padding-top: 120px;
 
   margin-left: -80px;
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
 }
 .form-container2 {
   margin-top: 100px;
@@ -23,11 +24,7 @@
   height: 400px;
   background-color: white;
 }
-button{
-  width:50px;
-  height:20px;
 
-}
 .Name-label {
   margin-top: 15px;
   margin-bottom: -13px;
@@ -58,7 +55,7 @@ button{
   margin-bottom: 5px;
 }
 .circles {
-  color: white;
+  color: black;
   text-align: center;
   align-self: center;
   display: inline-block;
@@ -68,8 +65,8 @@ button{
   border-style: solid;
   border-radius: 50%;
   border-width: 1px;
-  border-color:rgba(102, 77, 229, 255);
-  background-color:rgba(102, 77, 229, 255);
+  border-color: grey;
+  background-color:white;
   margin-top: 0px;
 }
 .info {
@@ -96,37 +93,27 @@ button{
   background-color: rgba(102, 77, 229, 255);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.page1-color{
+  border-color: rgba(102, 77, 229, 255) !important;
+  color: white !important;
+  background-color: rgba(102, 77, 229, 255) !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.page2-color{
+  border-color: rgba(102, 77, 229, 255) !important;
+  color: white !important;
+  background-color: rgba(102, 77, 229, 255) !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.page3-color{
+  border-color: rgba(102, 77, 229, 255) !important;
+  color: white !important;
+  background-color: rgba(102, 77, 229, 255) !important;
 }
 
-.App-link {
-  color: #61dafb;
+.page4-color{
+  border-color: rgba(102, 77, 229, 255) !important;
+  color: white !important;
+  background-color: rgba(102, 77, 229, 255) !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

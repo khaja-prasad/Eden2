@@ -1,6 +1,5 @@
 import "./App.css";
 import React from "react";
-import App from "./App";
 
 class Page3 extends React.Component{
     render(){
@@ -11,7 +10,7 @@ class Page3 extends React.Component{
           <div className="lines"></div>
           <div className="circles">2</div>
           <div className="lines"></div>
-          <div className="circles">3</div>
+          <div className="circles page3-color">3</div>
           <div className="lines"></div>
           <div className="circles">4</div>
         </div>
