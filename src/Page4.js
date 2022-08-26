@@ -6,14 +6,18 @@ class Page4 extends React.Component{
     return(
     <div>
         <div className="page-bar">
-          <div className="circles">1</div>
-          <div className="lines"></div>
-          <div className="circles">2</div>
-          <div className="lines"></div>
-          <div className="circles">3</div>
-          <div className="lines"></div>
-          <div className="circles page4-color">4</div>
+          <div className="circles circle-color">1</div>
+          <div className="line1 line1-color"></div>
+          <div className="line2 line1-color"></div>
+          <div className="circles circle-color">2</div>
+          <div className="line1 line1-color"></div>
+          <div className="line2 line1-color"></div>
+          <div className="circles circle-color">3</div>
+          <div className="line1 line1-color"></div>
+          <div className="line2 line1-color"></div>
+          <div className="circles circle-color">4</div>
         </div>
+        <div className="circle-tick"></div>
         <div className="heading" align="center">
             <h1 className="welcome-note">Congratulations,Eren!</h1>
             <h4 className="info">You have completed onboarding,you can start using the Eden!</h4>

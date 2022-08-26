@@ -7,12 +7,15 @@ class Page2 extends React.Component{
     return(
     <div>
         <div className="page-bar">
-          <div className="circles">1</div>
-          <div className="lines"></div>
-          <div className="circles page2-color">2</div>
-          <div className="lines"></div>
+        <div className="circles circle-color">1</div>
+          <div className="line1 line1-color"></div>
+          <div className="line2 line1-color"></div>
+          <div className="circles circle-color">2</div>
+          <div className="line1 line1-color"></div>
+          <div className="line2"></div>
           <div className="circles">3</div>
-          <div className="lines"></div>
+          <div className="line1"></div>
+          <div className="line2"></div>
           <div className="circles">4</div>
         </div>
         <div className="heading" align="center">
@@ -30,7 +33,9 @@ class Page2 extends React.Component{
               <br />
               <label className="DName-label">Workspace URL</label>
               <br />
-              <input type="text" placeholder="Example" className="name"></input>
+              <div className="button-text">
+              <button disabled="true" className="prefix">www.eden.com/</button>
+              <input type="text" placeholder="Example" className="name url"></input></div>
               <br />
               <input
                 className="submit"

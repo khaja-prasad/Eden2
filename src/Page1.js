@@ -6,12 +6,15 @@ class Page1 extends React.Component{
     return(
     <div>
         <div className="page-bar">
-          <div className="circles page1-color">1</div>
-          <div className="lines"></div>
+          <div className="circles circle-color">1</div>
+          <div className="line1 line1-color"></div>
+          <div className="line2"></div>
           <div className="circles">2</div>
-          <div className="lines"></div>
+          <div className="line1"></div>
+          <div className="line2"></div>
           <div className="circles">3</div>
-          <div className="lines"></div>
+          <div className="line1"></div>
+          <div className="line2"></div>
           <div className="circles">4</div>
         </div>
         <div className="heading" align="center">
