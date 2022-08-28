@@ -2,6 +2,26 @@ import "./App.css";
 import React from "react";
 
 class Page2 extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      workSpaceName: "",
+      url: "",
+    };
+  }
+
+  handleWorkSpaceName = (e) => {
+    this.setState({
+      workSpaceName: e.target.value,
+    });
+  };
+
+  handleUrl = (e) => {
+    this.setState({
+      url: e.target.value,
+    });
+  };
+
   render() {
     return (
       <div>
@@ -26,7 +46,13 @@ class Page2 extends React.Component {
             <form onSubmit={this.props.onSubmit}>
               <label className="Name-label">Workspace Name</label>
               <br />
-              <input type="text" placeholder="Eden" className="name"></input>
+              <input
+                type="text"
+                placeholder="Eden"
+                className="name"
+                value={this.state.workSpaceName}
+                onChange={this.handleWorkSpaceName}
+              ></input>
               <br />
               <label className="DName-label">
                 Workspace URL<span>(Optional)</span>
@@ -40,6 +66,8 @@ class Page2 extends React.Component {
                   type="text"
                   placeholder="Example"
                   className="name url"
+                  value={this.state.url}
+                  onChange={this.handleUrl}
                 ></input>
               </div>
               <br />

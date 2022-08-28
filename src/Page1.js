@@ -2,6 +2,26 @@ import "./App.css";
 import React from "react";
 
 class Page1 extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      name: "",
+      dname: "",
+    };
+  }
+
+  handleName = (e) => {
+    this.setState({
+      name: e.target.value,
+    });
+  };
+
+  handleDname = (e) => {
+    this.setState({
+      dname: e.target.value,
+    });
+  };
+
   render() {
     return (
       <div>
@@ -28,11 +48,19 @@ class Page1 extends React.Component {
                 type="text"
                 placeholder="Steve Jobs"
                 className="name"
+                value={this.state.name}
+                onChange={this.handleName}
               ></input>
               <br />
               <label className="DName-label">Display Name</label>
               <br />
-              <input type="text" placeholder="Steve" className="name"></input>
+              <input
+                type="text"
+                placeholder="Steve"
+                className="name"
+                value={this.state.dname}
+                onChange={this.handleDname}
+              ></input>
               <br />
               <input
                 className="submit"

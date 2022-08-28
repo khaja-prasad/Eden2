@@ -1,7 +1,5 @@
 import "./App.css";
 import React from "react";
-import userlogo from "./icon-user-idle.png";
-import teamlogo from "./icon-team-idle.png";
 
 class Page3 extends React.Component {
   render() {
