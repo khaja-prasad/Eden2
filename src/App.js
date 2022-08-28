@@ -14,10 +14,10 @@ class App extends React.Component{
       pageNumber:1,
       
     }
-    this.handleClick=this.handleClick.bind(this);
+    this.handleSubmit=this.handleSubmit.bind(this);
   }
   
- handleClick=(v)=>{
+ handleSubmit=(v)=>{
   this.setState({
     pageNumber:v
   });
@@ -27,20 +27,20 @@ class App extends React.Component{
     switch(this.state.pageNumber){
       case 1:return <div>
         <LogoTitle />
-        <Page1 onSubmit={e=>this.handleClick(2)}/>
+        <Page1 onSubmit={e=>this.handleSubmit(2)}/>
         </div>
     
       case 2:return <div>
         <LogoTitle />
-        <Page2 onSubmit={e=>this.handleClick(3)}/>
+        <Page2 onSubmit={e=>this.handleSubmit(3)}/>
         </div>
       case 3:return <div>
         <LogoTitle />
-        <Page3 onSubmit={e=>this.handleClick(4)}/>
+        <Page3 onSubmit={e=>this.handleSubmit(4)}/>
         </div>
       case 4:return <div>
         <LogoTitle />
-        <Page4 onSubmit={e=>this.handleClick(1)}/>
+        <Page4 onSubmit={e=>this.handleSubmit(1)}/>
       </div>  
       default: return <div>1</div>
     }

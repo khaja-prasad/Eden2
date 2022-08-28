@@ -1,7 +1,7 @@
 import "./App.css";
 import React from "react";
-import userlogo from "./user90.png";
-import teamlogo from "./team96.png";
+import userlogo from "./icon-user-idle.png";
+import teamlogo from "./icon-team-idle.png";
 
 class Page3 extends React.Component {
   render() {
@@ -28,25 +28,27 @@ class Page3 extends React.Component {
             <form onSubmit={this.props.onSubmit}>
               <div className="card-holder">
                 <div className="card" tabIndex={1}>
-                  <img
+                  <div className="user-icon">{/* <img
                     alt="Logo not Loaded"
-                    className="user-logo"
+                    className="user-type-icon"
                     src={userlogo}
-                  ></img>
+                  ></img> */}</div>
                   <br />
                   <div className="card-text-holder">
-                    <h3 className="card-text">For Myself</h3>
+                    <h4 className="card-text">For Myself</h4>
                     <p className="card-text2">Write better.Think more clearly.Stay organised.</p>
                   </div>
                 </div>
                 <div className="card" tabIndex={1}>
-                  <img
+                <div className="team-icon">
+                  {/* <img
                     alt="Logo not Loaded"
-                    className="user-logo"
+                    className="user-type-icon"
                     src={teamlogo}
-                  ></img>
+                  ></img> */}
+                  </div>
                   <div className="card-text-holder">
-                    <h3 className="card-text">With my team</h3>
+                    <h4 className="card-text">With my team</h4>
                     <p className="card-text2">Wikis,docs,tasks & projects,all in one place.</p>
                   </div>
                 </div>
