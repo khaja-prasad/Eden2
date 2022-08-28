@@ -28,20 +28,24 @@ class Page3 extends React.Component {
             <form onSubmit={this.props.onSubmit}>
               <div className="card-holder">
                 <div className="card" tabIndex={1}>
-                  <div className="user-icon">{/* <img
+                  <div className="user-icon">
+                    {/* <img
                     alt="Logo not Loaded"
                     className="user-type-icon"
                     src={userlogo}
-                  ></img> */}</div>
+                  ></img> */}
+                  </div>
                   <br />
                   <div className="card-text-holder">
                     <h4 className="card-text">For Myself</h4>
-                    <p className="card-text2">Write better.Think more clearly.Stay organised.</p>
+                    <p className="card-text2">
+                      Write better.Think more clearly.Stay organised.
+                    </p>
                   </div>
                 </div>
                 <div className="card" tabIndex={1}>
-                <div className="team-icon">
-                  {/* <img
+                  <div className="team-icon">
+                    {/* <img
                     alt="Logo not Loaded"
                     className="user-type-icon"
                     src={teamlogo}
@@ -49,7 +53,9 @@ class Page3 extends React.Component {
                   </div>
                   <div className="card-text-holder">
                     <h4 className="card-text">With my team</h4>
-                    <p className="card-text2">Wikis,docs,tasks & projects,all in one place.</p>
+                    <p className="card-text2">
+                      Wikis,docs,tasks & projects,all in one place.
+                    </p>
                   </div>
                 </div>
               </div>

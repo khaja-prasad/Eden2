@@ -1,10 +1,10 @@
 import "./App.css";
 import React from "react";
 
-class Page1 extends React.Component{
-    render(){
-    return(
-    <div>
+class Page1 extends React.Component {
+  render() {
+    return (
+      <div>
         <div className="page-bar">
           <div className="circles circle-color">1</div>
           <div className="line1 line1-color"></div>
@@ -28,22 +28,22 @@ class Page1 extends React.Component{
                 type="text"
                 placeholder="Steve Jobs"
                 className="name"
-               ></input>
-               <br />
-               <label className="DName-label">Display Name</label>
-               <br />
-               <input type="text" placeholder="Steve" className="name"></input>
-               <br />
-               <input
-                
+              ></input>
+              <br />
+              <label className="DName-label">Display Name</label>
+              <br />
+              <input type="text" placeholder="Steve" className="name"></input>
+              <br />
+              <input
                 className="submit"
                 type="submit"
                 value="Create Workspace"
               ></input>
             </form>
-            </div>
+          </div>
         </div>
-    </div>);
-    }
+      </div>
+    );
+  }
 }
 export default Page1;

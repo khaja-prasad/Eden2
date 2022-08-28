@@ -28,7 +28,9 @@ class Page2 extends React.Component {
               <br />
               <input type="text" placeholder="Eden" className="name"></input>
               <br />
-              <label className="DName-label">Workspace URL<span>(Optional)</span></label>
+              <label className="DName-label">
+                Workspace URL<span>(Optional)</span>
+              </label>
               <br />
               <div className="button-text">
                 <button disabled="true" className="prefix">
